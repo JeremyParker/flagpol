@@ -1,0 +1,32 @@
+
+Hi #{guest_name}! {host_name} has invited you to join a group activity tonight. {host_name} has suggested some activity options. All you have to do is choose which ones you'd be up for. If at least 4 people agree on something, you'll have a plan! Either way, you'll know the result within two hours.
+
+
+Welcome to Flagpol
+What's your name?
+
+______________________________
+[OK]
+
+
+
+
+
+How would you like to be notified of the result?
+- text message (SMS)
+- Whatsapp
+- browser notification
+- Facebook messenger
+- Slack (requires installing Slack App)
+
+
+
+Please enter your phone number
+
+______________________________
+
+[OK]
+
+
+
+Thanks! We've sent you a confirmation text.
