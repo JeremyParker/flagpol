@@ -31,3 +31,7 @@
 
 # ignore this annoying mac OSX file
 .DS_Store
+
+# ignore the frontend build
+./public
+
