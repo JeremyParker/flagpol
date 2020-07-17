@@ -3,9 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+let rootElement = document.getElementById('root');
+
+let render = () => {
+  console.log("rendering")
+  ReactDOM.render(<React.StrictMode> <App /> </React.StrictMode>, rootElement);
+}
+
+if (module.hot) {
+  module.hot.accept('./App', () => {
+    setTimeout(render);
+  });
+}
+
+render();
