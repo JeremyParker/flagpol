@@ -4,6 +4,9 @@ This app is written to be deployed on Heroku.
 
 ## How to set up your local environment for development
 Make sure you're running Postgres. I'm running PostgreSQL 12 on port 5432.
+Clone this repo. (See instructions on Github.)
+Install all the Ruby dependencies by executing `bundle install` in the root directory.
+Install the javascript dependencies by changing to the `frontend` directory and executing `yarn install`.
 Initialize the database by running `rails db:create && rails db:migrate`
 
 ## How to run locally for development
