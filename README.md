@@ -1,6 +1,7 @@
 # Flagpol - a system to help you plan an outing with your friends
 
 This app is written to be deployed on Heroku.
+This repo contains the server code and frontend for the app. For info about the frontend, see [frontend/README.md](./frontend/README.md)
 
 ## How to set up your local environment for development
 Make sure you're running Postgres. I'm running PostgreSQL 12 on port 5432.
