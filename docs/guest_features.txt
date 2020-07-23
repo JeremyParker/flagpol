@@ -1,0 +1,12 @@
+
+As a guest, I can get a link via SMS and hit a page that knows who I am.
+
+As a new guest I can confirm my name.
+As a new guest I can set a password
+
+As an existing guest or new guest who has completed the onboarding, I am presented with the rough time, and guest threshold.
+
+As a guest I can indicate if I'm busy at the rough time.
+
+As a guest who is free at the rough time I am presented with options and can respond to each one.
+
