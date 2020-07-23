@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import OptionPlanList from './features/guest/OptionPlanList/OptionPlanList';
 
 class App extends Component {
 
@@ -7,8 +7,9 @@ class App extends Component {
     return (
       <div>
         <h1>
-          Test
-      </h1>
+          Flagpol
+        </h1>
+        <OptionPlanList />
       </div>
     );
   }
