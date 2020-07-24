@@ -1,12 +1,55 @@
 
-Hi #{guest_name}! {host_name} has invited you to join a group activity tonight. {host_name} has suggested some activity options. All you have to do is choose which ones you'd be up for. If at least 4 people agree on something, you'll have a plan! Either way, you'll know the result within two hours.
+------------------------------------------------
+This is Flagpol
+Here's how it works.
 
+Someone suggests a bunch of activities that they would enjoy doing.
+[graphic]
 
-Welcome to Flagpol
-What's your name?
+Their friends pick things they want to do from that list.
+[graphic]
 
-______________________________
+If enough people agree on an activity, you have a plan and everyone is notified!
+
 [OK]
+------------------------------------------------
+
+
+
+
+------------------------------------------------
+Your name was entered as
+[name]
+Is that correct?
+[Yes] [Edit]
+------------------------------------------------
+
+
+
+
+------------------------------------------------
+Your Name  ______________
+[OK]
+------------------------------------------------
+
+
+
+
+------------------------------------------------
+[Host] wants to get a group of people together to do something tomorrow night.
+If at least [threshold] of us can agree on something to do, we'll have a plan!
+You'll know the result by [end_time].
+
+[Sorry. Not this time]
+[Maybe. Let's see the options]
+------------------------------------------------
+
+
+
+
+
+
+
 
 
 
@@ -19,14 +62,9 @@ How would you like to be notified of the result?
 - Facebook messenger
 - Slack (requires installing Slack App)
 
-
-
-Please enter your phone number
-
-______________________________
-
-[OK]
-
-
-
-Thanks! We've sent you a confirmation text.
+[obsolete]
+Hi #{guest_name}! {host_name} has invited you to join a group activity
+tonight. {host_name} has suggested some activity options. All you have
+to do is choose which ones you'd be up for. If at least 4 people agree
+on something, you'll have a plan! Either way, you'll know the result
+within two hours.
