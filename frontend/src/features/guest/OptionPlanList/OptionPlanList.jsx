@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
+import Button from '@material-ui/core/Button';
 
 class OptionPlanList extends Component {
   render() {
     return (
       <div>
-        test
+        <Button variant="contained" color="primary">
+          Hello You!
+        </Button>
       </div>
     )
   }
