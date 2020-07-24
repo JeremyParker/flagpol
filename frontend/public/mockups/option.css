@@ -55,7 +55,7 @@ body {
   margin: 1em;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .address {
@@ -75,7 +75,7 @@ body {
   z-index: 99;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
   text-align: center;
   background-color: white;
   color: white;
