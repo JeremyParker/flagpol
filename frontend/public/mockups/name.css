@@ -1,0 +1,63 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 0 1 auto;
+  margin: 0px;
+  padding: 0.6em;
+  background-color: black;
+  color: white;
+}
+
+.content {
+  flex: 1 1 auto;
+  padding: 2em;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logo {
+  font-family: 'Mansalva', cursive;
+  font-size: 2em;
+}
+
+.card {
+  padding: 3em 1em;
+  color: #222035;
+  background-color: #f5f6ffd4;
+  border-radius: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 1em;
+  margin:10px 0;
+  border: 0;
+  border-radius:10px;
+  background-color: white;
+  box-shadow:2px 2px 1px 1px #40467bd4;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=submit] {
+  width: 100%;
+  align-self: center;
+  border: 0;
+  padding: 0.5em;
+  border-radius:10px;
+  background-color: #222035;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
