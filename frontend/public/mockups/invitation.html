@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./invitation.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700,300&display=swap" rel="stylesheet">
+  <script type="text/javascript">
+    function nextPage(e) {
+      event.preventDefault();
+      window.document.location = './option.html';
+    }
+    function done(e) {
+      event.preventDefault();
+      window.document.location = './done.html';
+    }
+  </script>
+</head>
+
+<body>
+  <header class=header>
+    <h1 class=logo>flagpol</h1>
+  </header>
+
+  <main class=content>
+    <div class=card>
+      <section>
+        Hi Juanita!
+      </section>
+
+      <section>
+        Marcus wants to get together with a group of people to do something fun tonight.
+      </section>
+
+      <section>
+        As long as at least 5 of us can agree on something to do, we'll do it.<br>
+      </section>
+
+      <section>
+        You'll know the result by 5:45pm.
+      </section>
+
+      <form>
+        <label>Are you in?</label>
+        <input type="submit" value="Sorry, not this time." onclick="done()"></input>
+        <input type="submit" value="Maybe - what are the options?" onclick="nextPage()"></input>
+      </form>
+    </div>
+  </main>
+
+</body>
+
+</html>
