@@ -1,0 +1,45 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 0 1 auto;
+  margin: 0px;
+  padding: 0.6em;
+  background-color: black;
+  color: white;
+}
+
+.content {
+  flex: 1 1 auto;
+  padding: 2em;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logo {
+  font-family: 'Mansalva', cursive;
+  font-size: 2em;
+}
+
+.card {
+  padding: 3em 1em;
+  color: #222035;
+  background-color: #f5f6ffd4;
+  border-radius: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  margin: 0.4em 0 1em 0px;
+}
+
