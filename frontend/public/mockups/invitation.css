@@ -29,6 +29,7 @@ body {
 .logo {
   font-family: 'Mansalva', cursive;
   font-size: 2em;
+  margin: 0px;
 }
 
 .card {
@@ -54,4 +55,3 @@ input[type=submit] {
   color: white;
   font-family: 'Roboto', sans-serif;
 }
-

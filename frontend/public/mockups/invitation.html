@@ -11,9 +11,9 @@
       event.preventDefault();
       window.document.location = './option.html';
     }
-    function done(e) {
+    function busy(e) {
       event.preventDefault();
-      window.document.location = './done.html';
+      window.document.location = './busy.html';
     }
   </script>
 </head>
@@ -43,7 +43,7 @@
 
       <form>
         <label>Are you in?</label>
-        <input type="submit" value="Sorry, not this time." onclick="done()"></input>
+        <input type="submit" value="Sorry, not this time." onclick="busy()"></input>
         <input type="submit" value="Maybe - what are the options?" onclick="nextPage()"></input>
       </form>
     </div>

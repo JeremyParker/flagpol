@@ -23,12 +23,13 @@ body {
   margin: 0px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .logo {
   font-family: 'Mansalva', cursive;
   font-size: 2em;
+  margin: 0px;
 }
 
 .card {
