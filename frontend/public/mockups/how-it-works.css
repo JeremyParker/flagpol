@@ -1,14 +1,7 @@
-body {
-  margin: 0px;
+
+.fake-phone {
   color: white;
   background-color: #333146;
-}
-
-header {
-  padding: 0px 0.6em;
-  background-color: black;
-  color: white;
-  display: flex;
 }
 
 .logo {
@@ -28,11 +21,17 @@ header {
 }
 
 .info {
-  margin: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 300;
   text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 1em;
 }
 
 h3 {
@@ -45,15 +44,4 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.yes-button {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  text-align: center;
-  color: white;
-  margin: 0.2em;
-  padding: 1em;
-  background-color: #18c418;
 }

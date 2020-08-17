@@ -1,7 +1,3 @@
-body {
-  margin: 0px;
-}
-
 .header {
   padding: 0.6em;
   background-color: black;
@@ -66,32 +62,3 @@ body {
   width: 70%;
 }
 
-.option-buttons-wrapper {
-  position: fixed;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  z-index: 99;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  text-align: center;
-  background-color: white;
-  color: white;
-}
-
-.yes-button {
-  margin: 0.2em;
-  padding: 1em;
-  background-color: #18c418;
-}
-
-.no-button {
-  margin: 0.2em;
-  padding: 1em;
-  background-color: #c42f2f;
-}
-
-.bottom-padding {
-  padding: 3.4em;
-}

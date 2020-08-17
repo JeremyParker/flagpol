@@ -3,61 +3,64 @@
 
 <head>
   <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./common.css" />
   <link rel="stylesheet" href="./option.css" />
   <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700,300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div>
-    <div class=header>
-      <div class=logo>flagpol</div>
-    </div>
+  <div class=fake-phone>
 
-    <div class=option>
-      <div class=option-image-wrapper>
-        <img src="img/food.jpeg" alt="bar" class=option-image>
-        <div class=option-overlay>
-          <div class=option-title>
-            <h1>Dinner and Drinks At Dino</h1>
+    <div>
+      <div class=header>
+        <div class=logo>flagpol</div>
+      </div>
+
+      <div class=option>
+        <div class=option-image-wrapper>
+          <img src="img/food.jpeg" alt="bar" class=option-image>
+          <div class=option-overlay>
+            <div class=option-title>
+              <h1>Dinner and Drinks At Dino</h1>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class=option-info>
-      Dino has plenty of outdoor seating and we can enjoy the night air as we down
-      some bottles of wine and enjoy their delicious food.
-    </div>
+      <div class=option-info>
+        Dino has plenty of outdoor seating and we can enjoy the night air as we down
+        some bottles of wine and enjoy their delicious food.
+      </div>
 
-    <div class=option-info>
-      <span class=field-name>Meet at:</span> 8:00pm
-    </div>
+      <div class=option-info>
+        <span class=field-name>Meet at:</span> 8:00pm
+      </div>
 
-    <div class=option-info>
-      <span class=field-name>Meet where?</span>
-      <div class=address>
-        Dino's Restaurant<br>
-        285 DeKalb Ave<br>
-        Brooklyn, NY 11205
+      <div class=option-info>
+        <span class=field-name>Meet where?</span>
+        <div class=address>
+          Dino's Restaurant<br>
+          285 DeKalb Ave<br>
+          Brooklyn, NY 11205
+        </div>
+      </div>
+      <div>
+        <img src="./img/map.png" class="option-image">
       </div>
     </div>
-    <div>
-      <img src="./img/map.png" class="option-image">
+
+    <div class=button-padding></div>
+
+    <div class="buttons-wrapper">
+      <div class="button yes-button" onclick="window.location='./option3.html';">
+        I WOULD DO THAT
+      </div>
+      <div class="button no-button" onclick="window.location='./option3.html';">
+        NOT FOR ME THANKS
+      </div>
     </div>
   </div>
-
-  <div class=bottom-padding></div>
-
-  <div class="option-buttons-wrapper">
-    <div class=yes-button onclick="window.location='./option3.html';">
-      I WOULD DO THAT
-    </div>
-    <div class=no-button onclick="window.location='./option3.html';">
-      NOT FOR ME THANKS
-    </div>
-  </div>
-
 </body>
 
 </html>

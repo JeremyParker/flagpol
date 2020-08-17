@@ -3,63 +3,65 @@
 
 <head>
   <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./common.css" />
   <link rel="stylesheet" href="./option.css" />
   <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700,300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div>
-    <div class=header>
-      <div class=logo>flagpol</div>
-    </div>
+  <div class=fake-phone>
 
-    <div class=option>
-      <div class=option-image-wrapper>
-        <img src="img/movies.jpeg" alt="bar" class=option-image>
-        <div class=option-overlay>
-          <div class=option-title>
-            <h1>Netflix Watch Party!</h1>
+    <div>
+      <div class=header>
+        <div class=logo>flagpol</div>
+      </div>
+
+      <div class=option>
+        <div class=option-image-wrapper>
+          <img src="img/movies.jpeg" alt="bar" class=option-image>
+          <div class=option-overlay>
+            <div class=option-title>
+              <h1>Netflix Watch Party!</h1>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class=option-info>
-      I've been wantint to watch Chernobyl since it came out. Now is the perfect
-      time because COVID-19 is America's Chernobyl disaster. We're living through
-      it right now! How cool to already have a movie about it!
-    </div>
+      <div class=option-info>
+        I've been wantint to watch Chernobyl since it came out. Now is the perfect
+        time because COVID-19 is America's Chernobyl disaster. We're living through
+        it right now! How cool to already have a movie about it!
+      </div>
 
-    <div class=option-info>
-      <span class=field-name>Meet at:</span> 6:00pm
-    </div>
+      <div class=option-info>
+        <span class=field-name>Meet at:</span> 6:00pm
+      </div>
 
-    <div class=option-info>
-      <span class=field-name>Meet where?</span>
-      <div class=address>
-        Your TV <br>
-        Your Home <br>
-        The Internet
+      <div class=option-info>
+        <span class=field-name>Meet where?</span>
+        <div class=address>
+          Your TV <br>
+          Your Home <br>
+          The Internet
+        </div>
+      </div>
+      <div>
+        <img src="./img/internet.png" class="option-image">
       </div>
     </div>
-    <div>
-      <img src="./img/internet.png" class="option-image">
+
+    <div class=button-padding></div>
+
+    <div class="buttons-wrapper">
+      <div class="button yes-button" onclick="window.location='./summary.html';">
+        I WOULD DO THAT
+      </div>
+      <div class="button no-button" onclick="window.location='./summary.html';">
+        NOT FOR ME THANKS
+      </div>
     </div>
   </div>
-
-  <div class=bottom-padding></div>
-
-  <div class="option-buttons-wrapper">
-    <div class=yes-button onclick="window.location='./summary.html';">
-      I WOULD DO THAT
-    </div>
-    <div class=no-button onclick="window.location='./summary.html';">
-      NOT FOR ME THANKS
-    </div>
-  </div>
-
-
 </body>
 
 </html>

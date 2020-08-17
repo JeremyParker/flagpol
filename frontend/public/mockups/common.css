@@ -1,0 +1,68 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin:0;
+  height: 100vh;
+}
+
+.fake-phone {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 100vh;
+}
+
+/*
+  Constrain the width of content on larger browsers so everything can use the mobile interface.
+*/
+@media (min-width: 550px) {
+  .fake-phone {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    border: 1px solid grey;
+  }
+}
+
+.buttons-wrapper {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 99;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  background-color: white;
+  color: white;
+}
+
+@media (min-width: 550px) {
+  .buttons-wrapper {
+    width: 550px;
+  }
+}
+
+.button {
+  width: 100%;
+  margin: 0.2em;
+  padding: 1em;
+}
+
+.yes-button {
+  background-color: #18c418;
+}
+
+.no-button {
+  background-color: #c42f2f;
+}
+
+.button-padding {
+  padding: 3.4em;
+}

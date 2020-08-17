@@ -3,6 +3,7 @@
 
 <head>
   <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./common.css" />
   <link rel="stylesheet" href="./summary.css" />
   <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700,300&display=swap" rel="stylesheet">
@@ -22,61 +23,66 @@
 </head>
 
 <body>
-  <div class=header>
-    <h1 class=logo>flagpol</h1>
-  </div>
-
-  <main class=content>
-    <h1 class=title>Summary</h1>
-    <div class=card>
-      These are the activities you agree to do with a group of at least 5 people.
+  <div class=fake-phone>
+    <div class=header>
+      <h1 class=logo>flagpol</h1>
     </div>
-    <div class=summary>
 
-      <div class=header-row>
-        <div class=option-title></div>
-        <div class="header-label">
-          No
-        </div>
-        <div class="header-label">
-          Yes
-        </div>
+    <main class=content>
+      <h1 class=title>Summary</h1>
+      <div class=card>
+        These are the activities you agree to do with a group of at least 5 people.
       </div>
+      <div class=summary>
 
-      <div class=row>
-        <div class=option-title>Dinner at Graziella Then Drinks At Alibi</div>
-        <div id="00" class="option-icon no inactive" onclick="toggleResponse('00')">
-          &#10005;
+        <div class=header-row>
+          <div class=option-title></div>
+          <div class="header-label">
+            No
+          </div>
+          <div class="header-label">
+            Yes
+          </div>
         </div>
-        <div id="01" class="option-icon yes" onclick="toggleResponse('01')">
-          &#10003;
+
+        <div class=row>
+          <div class=option-title>Dinner at Graziella Then Drinks At Alibi</div>
+          <div id="00" class="option-icon no inactive" onclick="toggleResponse('00')">
+            &#10005;
+          </div>
+          <div id="01" class="option-icon yes" onclick="toggleResponse('01')">
+            &#10003;
+          </div>
         </div>
+
+        <div class=row>
+          <div class=option-title>Dinner and Drinks At Dino</div>
+          <div id="10" class="option-icon no inactive" onclick="toggleResponse('10')">
+            &#10005;
+          </div>
+          <div id="11" class="option-icon yes" onclick="toggleResponse('11')">
+            &#10003;
+          </div>
+        </div>
+
+        <div class=row>
+          <div class=option-title>Netflix Watch Party!</div>
+          <div id="20" class="option-icon no inactive" onclick="toggleResponse('20')">
+            &#10005;
+          </div>
+          <div id="21" class="option-icon yes" onclick="toggleResponse('21')">
+            &#10003;
+          </div>
+        </div>
+
       </div>
-
-      <div class=row>
-        <div class=option-title>Dinner and Drinks At Dino</div>
-        <div id="10" class="option-icon no inactive" onclick="toggleResponse('10')">
-          &#10005;
-        </div>
-        <div id="11" class="option-icon yes" onclick="toggleResponse('11')">
-          &#10003;
-        </div>
+    </main>
+    <div class=button-padding></div>
+    <div class=buttons-wrapper>
+      <div class="button yes-button" onclick="window.location='./finished.html';">
+        I AGREE
       </div>
-
-      <div class=row>
-        <div class=option-title>Netflix Watch Party!</div>
-        <div id="20" class="option-icon no inactive" onclick="toggleResponse('20')">
-          &#10005;
-        </div>
-        <div id="21" class="option-icon yes" onclick="toggleResponse('21')">
-          &#10003;
-        </div>
-      </div>
-
     </div>
-  </main>
-  <div class=yes-button onclick="window.location='./finished.html';">
-    I AGREE
   </div>
 </body>
 
