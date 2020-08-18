@@ -15,15 +15,23 @@
   font-family: 'Roboto', sans-serif;
 }
 
+form {
+  padding: 1em
+}
+
 input[type=text] {
   width: 100%;
   padding: 1em;
-  margin:10px 0;
+  margin: 10px 0;
   border: 0;
-  border-radius:10px;
+  border-radius: 10px;
   background-color: white;
-  box-shadow:2px 2px 1px 1px #40467bd4;
+  box-shadow: 2px 2px 1px 1px #40467bd4;
   font-family: 'Roboto', sans-serif;
+}
+
+input[type=checkbox] {
+  margin: 1em;
 }
 
 input[type=submit] {
@@ -31,9 +39,12 @@ input[type=submit] {
   align-self: center;
   border: 0;
   padding: 0.5em;
-  border-radius:10px;
+  border-radius: 10px;
   background-color: #222035;
   color: white;
   font-family: 'Roboto', sans-serif;
 }
 
+input[type=submit].disabled {
+  background-color: #f5f6ffa7;
+}

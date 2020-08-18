@@ -8,13 +8,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700,300&display=swap" rel="stylesheet">
   <script type="text/javascript">
-    function nextPage(e) {
+    function busy() {
+      event.preventDefault();
+      window.document.location = './busy.html';
+    }
+    function nextPage() {
       event.preventDefault();
       window.document.location = './option.html';
     }
-    function busy(e) {
+    function summary() {
       event.preventDefault();
-      window.document.location = './busy.html';
+      window.document.location = './summary.html';
     }
   </script>
 </head>
@@ -48,6 +52,7 @@
           <label>Are you in?</label>
           <input type="submit" value="Sorry, not this time." onclick="busy()"></input>
           <input type="submit" value="Maybe - what are the options?" onclick="nextPage()"></input>
+          <input type="submit" value="I'm up for whatever the group decides!" onclick="summary()"></input>
         </form>
       </div>
     </main>

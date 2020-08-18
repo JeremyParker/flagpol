@@ -10,28 +10,27 @@
   <script type="text/javascript">
     function nextPage(e) {
       event.preventDefault();
-      window.document.location = './invitation.html';
+      window.history.back(); // use back rather than the URL, so it remembers the phone #
     }
   </script>
 </head>
 
 <body>
   <div class=fake-phone>
-
     <header class=header>
       <h1 class=logo>flagpol</h1>
     </header>
-    <div class=content>
 
+    <main class=content>
       <div class=card>
-        <div>Your name:</div>
+        <section>
+          Great! You should get a text message in a few seconds with a verification link.
+        </section>
         <form>
-          <input type="text" value="Wanda">
-          <input type="submit" value="OK" onclick="nextPage()"></input>
+          <input type="submit" value="I never got a text" onclick="nextPage()"></input>
         </form>
       </div>
-
-    </div>
+    </main>
   </div>
 </body>
 
