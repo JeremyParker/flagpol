@@ -8,12 +8,6 @@
   justify-content: space-around;
 }
 
-.logo {
-  font-family: 'Mansalva', cursive;
-  font-size: 2em;
-  margin: 0px;
-}
-
 .card {
   padding: 3em 1em;
   color: #222035;

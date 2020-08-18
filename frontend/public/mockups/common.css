@@ -38,6 +38,12 @@ body {
   color: white;
 }
 
+.logo {
+  font-family: 'Mansalva', cursive;
+  font-size: 2em;
+  margin: 0px;
+}
+
 .buttons-wrapper {
   position: fixed;
   bottom: 0px;
