@@ -30,6 +30,14 @@ body {
   }
 }
 
+.header {
+  flex: 0 1 auto;
+  margin: 0px;
+  padding: 0.6em;
+  background-color: black;
+  color: white;
+}
+
 .buttons-wrapper {
   position: fixed;
   bottom: 0px;
