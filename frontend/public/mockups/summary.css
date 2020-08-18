@@ -48,7 +48,6 @@
 
 .row > div {
   padding: 0.2em;
-  margin: 0.2em;
   font-size: 1.2em;
 }
 
@@ -57,6 +56,7 @@
 }
 
 .header-label {
+  margin: 0.2em;
   flex: 0 0 2em;
   box-sizing: content-box;
   margin: 0px;
@@ -67,36 +67,28 @@
 
 .option-icon {
   box-sizing: content-box;
-  flex: 0 0 2em;
+  flex: 0 0 2.2em;
   height: 1.2em;
   align-self: center;
   text-align: center;
-  border: 1px solid black;
-  border-radius: 0.2em;
-  background-color: white;
+  border: 3px solid rgb(32, 39, 99);;
+  background-color: rgb(48, 64, 208);
 }
 
 .yes {
   color: #18c418;
+  border-top-right-radius: 0.4em;
+  border-bottom-right-radius: 0.4em;
 }
 
 .no {
   color: #c42f2f;;
+  border-top-left-radius: 0.4em;
+  border-bottom-left-radius: 0.4em;
 }
 
 .inactive {
   background-color: #f5f6ffd4;
   color: grey;
-  box-shadow:2px 2px 1px 1px #40467bd4;
-}
-
-.yes-button {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  text-align: center;
-  color: white;
-  margin: 0.2em;
-  padding: 1em;
-  background-color: #18c418;
+  border: 1px solid grey;
 }
