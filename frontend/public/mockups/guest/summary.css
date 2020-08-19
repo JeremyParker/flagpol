@@ -71,20 +71,22 @@
   height: 1.2em;
   align-self: center;
   text-align: center;
-  border: 3px solid rgb(32, 39, 99);;
-  background-color: rgb(48, 64, 208);
+  border: 3px solid rgb(32, 39, 99);
+  /* background-color: rgb(48, 64, 208); */
 }
 
 .yes {
   color: #18c418;
   border-top-right-radius: 0.4em;
   border-bottom-right-radius: 0.4em;
+  background-color: #18c418;
 }
 
 .no {
   color: #c42f2f;;
   border-top-left-radius: 0.4em;
   border-bottom-left-radius: 0.4em;
+  background-color: #c42f2f;
 }
 
 .inactive {
