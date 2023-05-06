@@ -93,8 +93,13 @@ GEM
     pg (1.2.3)
     puma (4.3.12)
       nio4r (~> 2.0)
-    racc (1.6.2)
+<<<<<<< HEAD
     rack (2.2.6.2)
+=======
+    racc (1.6.0)
+    racc (1.6.1)
+    rack (2.2.3)
+>>>>>>> 4afcf817d3c2b7e3b45e384c50e8bd197f93f0dc
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.0.3.2)
