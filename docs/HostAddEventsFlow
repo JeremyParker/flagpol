@@ -1,0 +1,72 @@
+Form To Enter a new Option
+
+Title: ______
+
+Description: ______
+[_] This contains private information
+
+Meeting Time: ________
+[_] This is a one-time event. Don't show in the future.
+
+Exact Meeting Location: ________
+[_] This is not a public space (like your home)
+
+Meeting Instrutions: _______ (e.g. Call when you arrive: 464-246-2222)
+
+Estimated Cost: ______
+
+Image [upload]
+[_] This is a private image
+
+
+---------------------------------------------------------------------------------------------------
+There's a feature to Browse Shared Activity Options, or you can enter a new Option.
+- Click "Browse Shared Events"
+- There's an interstitial: "You have great ideas! If you agree to share your option ideas with
+other hosts to use later, they'll share their ideas with you! Good deal, right? You'll still be
+able to keep private information private. [x] it's OK to share my activities with other hosts.
+
+Implementation: after the permission bit is set, new options are marked as `shareable`, and appear
+in the shared list. Options created before the permission bit was set, are not `shareable`.
+
+after the permission bit is set new Option form has
+  - Checkbox next to each field `[x] This is private`.
+  - Checkbox next to Location [_]This location is a private space (e.g. my home).
+  - At the bottom of the form [_]This is a one-time event. Don't show it in the future.
+
+New Options are created in the Options table.
+Private fields are nulled before being served to a non-owner.
+Any field can be overridden in the OptionPlan table - the instance of the Option. The form is
+initially populated with the data from the Option, but will be stored in the OptionPlan
+instance. So, when the Option description says "We'll see the 7pm showing of Black Panther",
+a non-owner can edit that to "We'll see the 10pm showing...".
+
+When browsing shared Options for a Plan, if a shared event is marked as a one-time event, and
+the meeting time is outside the window of the current plan, don't show the event.
+If a shared event is NOT marked as a one-time event, and the `Meeting Time` field is outisde
+the window of the Plan, NULL out the `Meeting Time` field.
+
+
+---------------------------------------------------------------------------------------------------
+What if there's a URL field where you can enter the URL of an event you want to add? The server
+scrapes the site at the URL for content. Maybe there's a list of sites we recommend you browse to
+find events, and the scraper has a set of sites it knows how to scrape. If it's not one of those,
+you have to enter your own copy/paste data. It still shows the original URL so guests can read it
+there.
+Maybe if it's an unknown site URL we present the user with a drop-down for every field, so they can
+choose the appropriate content for each field from the scraped site. And we remember where we got
+the HTML elements where we got the fields from, so the next time someone uses that site, we know how
+to parse it.
+
+---------------------------------------------------------------------------------------------------
+Another Option
+- Enter event details
+- Checkbox next to Location [_] This location is a private space (e.g. my home).
+- There's a checkbox at the bottom `[x] Save idea for future use (?)` <-- the help button says:
+  If checked, your idea will be saved and can be reused by yourself or other groups. If your location
+  is not a public space, the location will not be shared outside your friends.
+
+A Browsing host sees their own ideas first, and can delete them (e.g. if they're out of date, like
+"See Black Panther", or Pixies at Axis)
+A browsing host can hit "Don't Show Me This Again" on events that have passed. Eventually they are
+removed from display for all.
