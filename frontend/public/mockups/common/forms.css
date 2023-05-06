@@ -8,6 +8,7 @@
 }
 
 .card {
+  margin: 1em;
   padding: 3em 1em;
   color: #222035;
   background-color: #f5f6ffd4;
